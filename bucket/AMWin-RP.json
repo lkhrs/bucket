@@ -1,0 +1,21 @@
+{
+    "version": "1.4.9",
+    "description": "A Discord Rich Presence client for Apple Music's native Windows app.",
+    "license": "GPL-3.0",
+    "depends": "main/dotnet-sdk",
+    "url": "https://github.com/PKBeam/AMWin-RP/releases/download/v1.4.9/AMWin-RichPresence-v1.4.9-NoRuntime.zip",
+    "bin": "AMWin-RichPresence.exe",
+    "shortcuts": [[
+        "AMWin-RichPresence.exe",
+        "AMWin Rich Presence"
+    ]],
+    "homepage": "https://github.com/PKBeam/AMWin-RP",
+    "hash": "c28dad22d21f2ed155d261099ea20b4864da46fe665b0a396e007f6e8b4901cb",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/PKBeam/AMWin-RP/releases/download/v$version/AMWin-RichPresence-v$version-NoRuntime.zip",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
